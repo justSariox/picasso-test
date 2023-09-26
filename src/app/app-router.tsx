@@ -1,7 +1,6 @@
 import {createBrowserRouter, RouteObject, RouterProvider} from "react-router-dom";
-import {Posts} from "../pages/posts.tsx"
-import {PostDetailsPage} from "../pages/post-details-page.tsx";
-import {Layout} from "../shared/ui/Layout/Layout.tsx";
+import {Layout} from "../shared/ui/Layout";
+import {PostDetailsPage, Posts} from "../pages";
 
 const routes: RouteObject[] = [
     {path: '/', element: <Posts/>},
